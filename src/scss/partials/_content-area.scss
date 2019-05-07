@@ -1,0 +1,265 @@
+/* Home Page
+--------------------------------------------- */
+
+.home-middle,
+.home-top {
+  background-color: #fff;
+  clear: both;
+  overflow: hidden;
+  padding: 60px 30px 0;
+}
+
+.home-middle .widget,
+.home-top .widget {
+  float: left;
+  padding: 0 2.8%;
+  width: 33.33333333333%;
+}
+
+.home-middle .widget:nth-of-type(3n + 1),
+.home-top .widget:nth-of-type(3n + 1) {
+  clear: left;
+}
+
+.executive-pro-home a.more-link {
+  clear: both;
+  display: block;
+  margin: 30px 0 0;
+}
+
+.executive-pro-home .home-cta {
+  background-color: #222;
+  color: #ddd;
+  float: left;
+  padding: 60px;
+  width: 100%;
+}
+
+.executive-pro-home .home-cta p {
+  color: #ddd;
+}
+
+.home-hero {
+  @include media('>=tablet') {
+    $pic-width: 76%;
+    > div:first-child {
+      flex-basis: 100 - $pic-width;
+    }
+    > div:last-child {
+      flex-basis: $pic-width;
+    }
+  }
+  @include media('<=768px') {
+    padding: 3em 1.5em 1em !important;
+    // margin-left: -58px;
+    // margin-right: -58px;
+    width: 100vw;
+    transform: translate(-58px);
+    margin-top: -48px;
+    // @include full-width();s
+    h2 {
+      text-align: center;
+      color: white;
+    }
+    img {
+      display: none;
+    }
+    margin: 0;
+    padding: 0;
+  }
+}
+/* Portfolio
+--------------------------------------------- */
+.genesis-pro-portfolio .content .entry.pro-portfolio {
+  margin-bottom: 0;
+}
+
+/* Entries
+--------------------------------------------- */
+
+.entry {
+  margin-bottom: 40px;
+}
+
+.executive-pro-portfolio .entry,
+.single-portfolio .entry {
+  margin-bottom: 20px;
+}
+
+.entry-content ol,
+.entry-content p,
+.entry-content ul,
+.quote-caption {
+  margin-bottom: 26px;
+}
+
+.entry-content ol li,
+.entry-content ul li {
+  margin-left: 20px;
+}
+
+.entry-content ol > li {
+  list-style-type: decimal;
+}
+
+.entry-content ul > li {
+  list-style-type: disc;
+}
+
+.entry-content ol ol,
+.entry-content ul ul,
+.entry-content .wp-caption p {
+  margin-bottom: 0;
+}
+
+.content .entry-header .entry-meta {
+  background-color: #f8f8f8;
+  clear: both;
+  color: #777;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 5;
+  margin: 0 0 24px -60px;
+  max-width: 600px;
+  overflow: hidden;
+  padding-left: 60px;
+  text-transform: uppercase;
+}
+
+.content .entry-header .entry-meta a {
+  color: #777;
+  font-weight: 700;
+}
+
+.content .entry-header .entry-meta {
+  margin-bottom: 24px;
+}
+
+.content .entry-header .entry-meta .entry-comments-link {
+  background-color: #64c9ea;
+  color: #fff;
+  float: right;
+  font-size: 12px;
+  font-size: 1.2rem;
+  padding: 0 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.content .entry-header .entry-meta .entry-comments-link a::before {
+  color: #fff;
+  content: '\f101';
+  font-family: 'Dashicons';
+  font-size: 18px;
+  font-size: 1.8rem;
+  left: 25px;
+  line-height: 1;
+  position: absolute;
+  top: 23px;
+}
+
+.content .entry-header .entry-meta .entry-comments-link a:focus::before,
+.content .entry-header .entry-meta .entry-comments-link a:hover::before {
+  text-decoration: none;
+}
+
+.content .entry-header .entry-meta .entry-comments-link a {
+  color: #fff;
+  padding-left: 32px;
+}
+
+.entry-footer .entry-meta {
+  border-top: 1px dotted #ddd;
+  font-size: 14px;
+  font-size: 1.4rem;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.entry-footer .entry-tags {
+  background: url(../images/icon-dot.png) no-repeat left;
+  margin-left: 4px;
+  padding-left: 10px;
+}
+
+/* After Entry
+--------------------------------------------- */
+
+.after-entry {
+  background-color: #f5f5f5;
+  margin-bottom: 30px;
+  padding: 30px;
+  text-align: center;
+}
+
+.after-entry .widget {
+  margin-bottom: 30px;
+}
+
+.after-entry .widget:last-child,
+.after-entry p:last-child {
+  margin: 0;
+}
+
+.after-entry li {
+  list-style-type: none;
+}
+
+/* Pagination
+--------------------------------------------- */
+
+.archive-pagination {
+  font-size: 14px;
+  font-size: 1.4rem;
+  padding: 30px 0;
+}
+
+.entry .archive-pagination a {
+}
+
+.archive-pagination li {
+  display: inline;
+}
+
+.archive-pagination li a {
+  background-color: #64c9ea;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2;
+  margin-bottom: 4px;
+  padding: 8px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.archive-pagination li a:focus,
+.archive-pagination li a:hover,
+.archive-pagination li.active a {
+  background-color: #6bd5f1;
+  text-decoration: none;
+}
+
+.archive.category {
+  h2.entry-title {
+    font-family: $serif;
+    font-style: normal;
+    text-transform: none;
+  }
+}
+
+.archive-description {
+  h1.archive-title {
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: rem(14px);
+    font-size: rem(30px);
+    font-style: italic;
+    border-bottom: 2px solid $gray-light;
+  }
+}

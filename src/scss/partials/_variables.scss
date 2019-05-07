@@ -1,0 +1,29 @@
+/* Variables
+--------------------------------------------- */
+$breakpoints: (
+  tiny: 270px,
+  phone: 500px,
+  phoneBig: 600px,
+  tablet: 1020px,
+  ipad: 1024px,
+  desktop: 1200px
+);
+$primary-color: #7cdbe1;
+$blue: #7cdbe1;
+$secondary-color: #f5f5f5;
+$gray: #f5f5f5;
+$gray-light: #e5e5e5;
+$gray2: #6a7072;
+$ipad: map-get($breakpoints, 'ipad');
+$ipad-portrait: map-get($breakpoints, 'tablet');
+$desktop: map-get($breakpoints, 'desktop');
+$site-width: 1140px;
+
+$base-font-size: 18px;
+$serif: adobe-caslon-pro, serif;
+$sans: proxima-nova, sans-serif;
+
+:root {
+  --site-width: 1140px;
+  --site-inner-width: 1020px;
+}

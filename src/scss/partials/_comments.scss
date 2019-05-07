@@ -1,0 +1,107 @@
+/* Comments
+--------------------------------------------- */
+
+.comment-respond,
+.entry-comments,
+.entry-pings {
+  font-size: 14px;
+  font-size: 1.4rem;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.entry-comments .comment-author {
+  font-weight: 700;
+  margin: 0;
+}
+
+// .comment-respond input[type='email'],
+// .comment-respond input[type='text'],
+// .comment-respond input[type='url'] {
+//   width: 50%;
+// }
+
+.comment-respond label {
+  display: block;
+  margin-right: 12px;
+}
+
+.comment-list li,
+.ping-list li {
+  list-style-type: none;
+  margin: 30px;
+  overflow: hidden;
+}
+
+.comment-list li.depth-1,
+.ping-list li.depth-1 {
+  margin: 30px 0;
+}
+
+.comment-list li li {
+  margin-right: -1px;
+}
+
+.comment {
+  border-right: none;
+}
+
+.comment-header,
+.ping-list .comment-meta {
+  background-color: #222;
+  color: #fff;
+  float: left;
+  font-weight: 700;
+  padding: 30px;
+  width: 100%;
+}
+
+.comment-list cite,
+.ping-list cite,
+.says {
+  display: inline-block;
+}
+
+.comment-header .comment-meta a,
+.comment-metadata a {
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #bbb;
+}
+
+.comment-content {
+  clear: both;
+  padding: 48px;
+}
+
+.comment-content p,
+.comment-header p.comment-meta {
+  margin: 0;
+}
+
+.comment .avatar {
+  margin-right: 10px;
+}
+
+.alt,
+.even {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+}
+
+.comment-reply {
+  font-size: 14px;
+  font-size: 1.4rem;
+  padding: 0 48px 48px;
+}
+
+.entry-pings .reply {
+  display: none;
+}
+
+.wp-audio-shortcode,
+.wp-playlist,
+.wp-video {
+  margin: 0 0 28px;
+}

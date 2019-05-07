@@ -1,0 +1,50 @@
+/* Sidebars
+---------------------------------------------------------------------------------------------------- */
+
+.sidebar {
+  box-shadow: 0 0 0 1px #fff inset;
+  // display: inline;
+  font-size: rem(17px);
+  padding-bottom: 30px;
+  font-family: $sans;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  @include media('<tablet') {
+    border-color: $blue;
+  }
+}
+
+.sidebar p {
+  margin-bottom: 16px;
+}
+
+.sidebar p:last-child,
+.sidebar ul {
+  margin-bottom: 0;
+}
+
+.sidebar {
+  a {
+    color: black;
+  }
+}
+.sidebar li,
+.sidebar .more-from-category a {
+  // background: url(../images/icon-li.png) no-repeat 0 7px;
+  // background-size: 8px 8px;
+  margin-bottom: 6px;
+  padding: 0;
+}
+
+.sidebar .more-from-category {
+  padding-top: 6px;
+}
+
+.sidebar .widget {
+  margin-bottom: 0;
+  padding: 30px 40px;
+  word-wrap: break-word;
+}
+
+.sidebar .search-form {
+  width: 100%;
+}

@@ -1,0 +1,35 @@
+/* Button
+--------------------------------------------- */
+
+.wp-block-button {
+  .wp-block-button__link {
+    background: $primary-color;
+    font-weight: 700;
+    font-size: rem(18px);
+    line-height: 18px;
+    padding: 20px 24px;
+    text-transform: uppercase;
+    font-family: $sans;
+    min-width: 208px;
+    margin-top: 30px;
+
+    &:hover {
+      background: darken($primary-color, 10%);
+      text-decoration: none;
+    }
+  }
+}
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.button,
+.entry-content .button,
+.wp-block-button,
+.wp-block-button__link {
+  border-radius: 4px;
+  @include media('<tablet') {
+    width: 100%;
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+/* Site Containers
+--------------------------------------------- */
+
+.site-container {
+  margin: 0 auto;
+  max-width: $site-width;
+}
+
+.executive-pro-landing .site-container {
+  max-width: 800px;
+}
+
+.site-inner {
+  background-color: #fff;
+  clear: both;
+  margin: 0 auto;
+  // overflow: hidden;
+}
+
+// .executive-pro-home .site-inner {
+//   // overflow: visible;
+// }

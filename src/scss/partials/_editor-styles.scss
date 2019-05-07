@@ -1,0 +1,72 @@
+.block-library-list .editor-rich-text__tinymce,
+.block-library-list .editor-rich-text__tinymce ol,
+.block-library-list .editor-rich-text__tinymce ul {
+  padding-left: 20px;
+  margin-left: 0;
+}
+
+body {
+  font-family: $serif;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #333;
+    font-family: $serif;
+    font-weight: bold;
+    line-height: 1.25;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: rem(42px);
+  }
+
+  h2 {
+    font-size: rem(30px);
+    text-transform: uppercase;
+    font-family: $sans;
+    font-style: italic;
+    letter-spacing: 2px;
+  }
+  blockquote {
+    margin: 0;
+    padding: 24px 40px;
+  }
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    margin: 0 0 24px;
+    padding: 0;
+  }
+  a:focus,
+  a:hover {
+    text-decoration: underline;
+  }
+  strong {
+    font-weight: 700;
+  }
+  h3 {
+    font-size: rem(24px);
+  }
+
+  h4 {
+    font-size: rem(25px);
+    font-weight: 400;
+  }
+
+  h5 {
+    font-size: rem(20px);
+  }
+
+  h6 {
+    font-size: rem(16px);
+  }
+}

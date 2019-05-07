@@ -1,0 +1,51 @@
+/* Titles
+--------------------------------------------- */
+
+.entry-title {
+  font-size: rem(44px);
+  line-height: 1;
+  margin-bottom: 1.5em;
+}
+
+.entry-title a,
+.sidebar .widget-title a {
+  color: #333;
+}
+
+.entry-title a:focus,
+.entry-title a:hover,
+.footer-widgets .entry-title a:focus,
+.footer-widgets .entry-title a:hover {
+  color: #64c9ea;
+  text-decoration: none;
+}
+
+.archive-title,
+.widget-title,
+.genesis-pro-portfolio .pro-portfolio.entry .entry-header .entry-title {
+  font-size: rem(17px);
+  font-family: $sans;
+  margin-bottom: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.footer-widgets .entry-title,
+.sidebar .entry-title {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+.executive-pro-home .home-cta .widget-title {
+  font-size: 24px;
+  font-size: 2.4rem;
+  margin-bottom: 6px;
+  text-transform: none;
+}
+
+.executive-pro-home .home-cta .entry-title a,
+.executive-pro-home .home-cta .widget-title,
+.footer-widgets .entry-title a,
+.footer-widgets .widget-title {
+  color: #fff;
+}

@@ -1,0 +1,134 @@
+/* Widgets
+---------------------------------------------------------------------------------------------------- */
+
+/* Featured Content
+--------------------------------------------- */
+
+.featured-content .entry {
+  margin-bottom: 12px;
+  padding: 0;
+}
+
+.featured-content .entry-title {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
+.executive-pro-home .featured-content .entry {
+  margin-bottom: 36px;
+}
+
+/* Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.widget {
+  word-wrap: break-word;
+}
+
+.widget li {
+  list-style-type: none;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  text-align: left;
+}
+
+.widget ol > li {
+  background-image: none;
+  list-style-position: inside;
+  list-style-type: decimal;
+  padding-left: 20px;
+  text-indent: -20px;
+}
+
+.widget ul > li {
+  text-indent: 0;
+}
+
+.widget ul > li {
+  list-style-position: outside;
+  padding: 0 0 0 16px;
+  &.cat-item {
+    padding: 0;
+    a {
+      &.active {
+        color: $primary-color;
+        text-decoration: underline;
+      }
+    }
+    ul {
+      padding-left: 24%;
+    }
+  }
+}
+
+.widget ol > li:last-child,
+.widget ul > li:last-child {
+  margin-bottom: 0;
+}
+
+.widget_calendar table {
+  width: 100%;
+}
+
+.widget_calendar td,
+.widget_calendar th {
+  text-align: center;
+}
+
+.widget_calendar caption {
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-style: italic;
+  padding: 2px 6px 0 0;
+  text-align: right;
+}
+
+/* Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.footer-widgets {
+  background-color: #222;
+  color: #c8c8c8;
+  clear: both;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+.footer-widgets .wrap {
+  overflow: hidden;
+  padding: 60px 30px 30px;
+}
+
+.footer-widgets-1,
+.footer-widgets-2,
+.footer-widgets-3 {
+  padding: 0 2.8%;
+  width: 33.3333333333%;
+}
+
+.footer-widgets-1,
+.footer-widgets-2 {
+  float: left;
+}
+
+.footer-widgets-3 {
+  float: right;
+}
+
+.footer-widgets .widget {
+  margin-bottom: 30px;
+  word-wrap: break-word;
+}
+
+.footer-widgets a:focus {
+  color: currentColor;
+}
+
+.footer-widgets li {
+  // background: url(../images/icon-li-footer.png) no-repeat 0 7px;
+  background-size: 8px 8px;
+}
+
+.footer-widgets .search-form {
+  width: 100%;
+}

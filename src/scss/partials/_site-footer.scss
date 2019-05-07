@@ -1,0 +1,48 @@
+/* Site Footer
+---------------------------------------------------------------------------------------------------- */
+
+.site-footer {
+  background: $secondary-color;
+  color: #222;
+  font-size: 1.2rem;
+  padding: 40px 0;
+  @include media('>tablet') {
+    padding: 0;
+  }
+  text-align: center;
+  text-transform: uppercase;
+  @include full-width($with-scrollbar: false);
+  font-family: $sans;
+  .wrap {
+    @include media('>tablet') {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+      max-width: $site-width;
+      > * {
+        padding: 1em;
+      }
+    }
+  }
+}
+
+.site-copyright {
+  @include full-width($with-scrollbar: false);
+  background: $secondary-color;
+  text-align: center;
+  font-size: rem(15px);
+  padding-bottom: 2em;
+  font-family: $sans;
+  color: $gray2;
+}
+
+.site-footer a {
+  color: #222;
+  font-family: $sans;
+}
+
+.site-footer p {
+  margin: 0;
+}
