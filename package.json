@@ -1,0 +1,28 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "Jull Weber <mkykode@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "NODE_ENV=development node browserSync.js",
+    "prod": "NODE_ENV=production node browserSync.js",
+    "parcel:dev": "NODE_ENV= parcel src/* --out-dir ./assets ",
+    "parcel:build": "parcel build src/* --out-dir ./assets  --public-url ./",
+    "parcel:watch": "parcel watch src/*  --out-dir ./assets --public-url ./ --hmr-hostname sparkly-education.lndo.site --https"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "browser-sync": "^2.26.5",
+    "eslint": "^5.16.0",
+    "http-proxy-middleware": "^0.19.1",
+    "lodash": "^4.17.11",
+    "node-sass": "^4.12.0",
+    "parcel-bundler": "^1.12.3",
+    "path": "^0.12.7",
+    "postcss-assets": "^5.0.0",
+    "postcss-modules": "^1.4.1"
+  },
+  "dependencies": {}
+}
