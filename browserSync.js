@@ -16,7 +16,7 @@ serve({
   ],
   reloadDelay: 3000,
   proxy: {
-    target: 'sparkly-education.lndo.site',
+    target: 'dev.site',
     middleware: bundler.middleware()
   }
 })
